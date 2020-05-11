@@ -15,3 +15,6 @@ var addElementToEndOfArray = function(array, element){
 var accessElementInArray = function(array, index){
   return array[index];
 }
+var destructivelyRemoveElementFromEndOfArray = function(array){
+  array.pop()
+}
