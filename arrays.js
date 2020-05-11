@@ -9,5 +9,5 @@ var destructivelyAddElementToBeginningOfArray = function(array, element){
   array.unshift(element)
 }
 var addElementToEndOfArray = function(array, element){
-  array = [element, ...array]
+  array = [...array, element]
 }
