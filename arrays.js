@@ -17,4 +17,9 @@ var accessElementInArray = function(array, index){
 }
 var destructivelyRemoveElementFromEndOfArray = function(array){
   array.pop()
+  return array;
+}
+var destructivelyRemoveElementFromBeginningOfArray = function(array){
+  array.shift();
+  return array;
 }
